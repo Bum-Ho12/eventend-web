@@ -1,11 +1,11 @@
-import 'package:flutter_web/widgets/bottom_bar.dart';
-import 'package:flutter_web/widgets/carousel.dart';
-import 'package:flutter_web/widgets/featured_heading.dart';
-import 'package:flutter_web/widgets/featured_tiles.dart';
-import 'package:flutter_web/widgets/floating_quick_access_bar.dart';
-import 'package:flutter_web/widgets/main_heading.dart';
-import 'package:flutter_web/widgets/menu_drawer.dart';
-import 'package:flutter_web/widgets/top_bar_contents.dart';
+// import 'package:flutter_web/widgets/bottom_bar.dart';
+// import 'package:flutter_web/widgets/carousel.dart';
+// import 'package:flutter_web/widgets/featured_heading.dart';
+// import 'package:flutter_web/widgets/featured_tiles.dart';
+// import 'package:flutter_web/widgets/floating_quick_access_bar.dart';
+// import 'package:flutter_web/widgets/main_heading.dart';
+// import 'package:flutter_web/widgets/menu_drawer.dart';
+// import 'package:flutter_web/widgets/top_bar_contents.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatefulWidget {
@@ -39,26 +39,23 @@ class _HomePageState extends State<HomePage> {
 
     return Scaffold(
       body: Column(
-          children: [
-            Stack(
-              children: [
-                Container(
-                  child: SizedBox(
-                    height: screenSize.height * 0.65,
-                    width: screenSize.width,
-                    child: Image.asset(
-                      'assets/images/background.png',
-                      fit: BoxFit.cover,
-                    ),
+        children: [
+          Stack(
+            children: [
+              Container(
+                child: SizedBox(
+                  height: screenSize.height * 0.65,
+                  width: screenSize.width,
+                  child: Image.asset(
+                    'assets/images/background.png',
+                    fit: BoxFit.cover,
                   ),
                 ),
-
-              ],
-            ),
-
-          ],
-        ),
-
+              ),
+            ],
+          ),
+        ],
+      ),
     );
   }
 }

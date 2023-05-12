@@ -1,6 +1,6 @@
-import 'package:carousel_slider/carousel_controller.dart';
+// import 'package:carousel_slider/carousel_controller.dart';
 import 'package:carousel_slider/carousel_slider.dart';
-import 'package:flutter_web/widgets/responsive.dart';
+// import 'package:flutter_web/widgets/responsive.dart';
 import 'package:flutter/material.dart';
 
 class MainCarousel extends StatefulWidget {
@@ -85,14 +85,14 @@ class _MainCarouselState extends State<MainCarousel> {
               places[_current],
               style: TextStyle(
                 letterSpacing: 8,
-                fontFamily: 'Electrolize',
+                fontFamily: 'Electrolyze',
                 fontSize: screenSize.width / 25,
                 color: Colors.white,
               ),
             ),
           ),
         ),
-         AspectRatio(
+        AspectRatio(
                 aspectRatio: 17 / 8,
                 child: Center(
                   heightFactor: 1,

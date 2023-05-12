@@ -1,4 +1,4 @@
-import 'package:flutter_web/widgets/responsive.dart';
+// import 'package:flutter_web/widgets/responsive.dart';
 import 'package:flutter/material.dart';
 
 class MainHeading                                                                                                extends StatelessWidget {

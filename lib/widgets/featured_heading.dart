@@ -1,4 +1,4 @@
-import 'package:flutter_web/widgets/responsive.dart';
+// import 'package:flutter_web/widgets/responsive.dart';
 import 'package:flutter/material.dart';
 
 class FeaturedHeading extends StatelessWidget {
@@ -25,7 +25,7 @@ class FeaturedHeading extends StatelessWidget {
               'Featured',
               style: TextStyle(
                   fontSize: 36,
-                  fontFamily: 'Raleway',
+                  fontFamily: 'Railway',
                   fontWeight: FontWeight.bold,
                   color:Color(0xFF263b5e)
               ),
